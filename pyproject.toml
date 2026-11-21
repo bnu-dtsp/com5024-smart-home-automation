@@ -5,3 +5,8 @@ description = "Code segments for smart home automation app coursework project (B
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
